@@ -1,232 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini project</title>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mini project</title>
 
-<!-- --for awesome links-- -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-   
-<!-- ----custom css file link---- -->
-<link rel="stylesheet" href="page1.css">
-
-
-</head>
-<body>
-
-    <!-- ----header section starts---- -->
-  
-    <header class="header">
-
-        <a href="#" class="logo">
-            <img src="logomain.png" alt="">
-        </a>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#products">Products</a>
-            <a href="#review">Review</a>
-            <a href="#contact">Contact</a>
-            <a href="#blogs">Blogs</a>
-        </nav>
-        <div class="icons">
-            <div class="fas fa-search" id="search-btn"></div>
-            <div class="fas fa-shopping-cart" id="cart-btn"></div>
-            <div class="fas fa-bars" id="menu-btn"></div>
+        <!-- --for awesome links-- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        
+        <!-- ----custom css file link---- -->
+        <link rel="stylesheet" href="page1.css">
 
 
-        </div>
+        </head>
+        <body>
 
-        <div class="search-form">
-            <input type="search" id="search-box" placeholder="search here...">
-            <label for="search-box" class="fas fa-search"></label>
-        </div>
+            <!-- ----header section starts---- -->
+            
+            <header class="header">
 
-        <div class="cart-item-container">
-        <div class="cart-item">
-            <span class="fa fa-time"></span>
-            <img src="grimioreasta.jpeg" alt="">
+                <a href="#" class="logo">
+                    <img src="logomain.png" alt="">  </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbardropdown">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#about">Sypnopsis</a>
+                    <a href="#menu">Characters</a>
+                    <a href="#products">Top 3 Captains</a>
+                    <a href="#review">Voice Actors</a>
+                    <a href="#contact">Grimoires</a>
+                    <a href="#blogs">3 Great Kingdom</a>
+            
+                <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                </div>
+            </nav>
+            
+                    
+                    
+
+        </header>
+            
+        <!-- ----header section ends---- -->
+
+        <!-- ----home section starts---- -->
+        <section class="home" id="home">
             <div class="content">
-                <h3>cart item 01</h3>
-                <div class="price">$19.99/</div>
+                <h3>Black Clover</h3>
+                <p>Black Clover is a Japanese manga series written and illustrated by Yūki Tabata. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen.</p>
+                
+            </div>
+        </section>
+
+
+        <!-- ----home section end---- -->
+
+        <!-- about section start -->
+
+        <section class="about" id="about">
+            <h1 class="heading">SYPNOPSIS</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="main.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>What makes the anime interesting</h3>
+                    <p>Asta and Yuno were abandoned at the same church onthe same day.Raised together as children, they came to know of the "Wizard king a title given to the strongest mage in the kingdom and promised that they would compete against each other for the position
+                        of the next WIZARD KING.However, as they grew up, the stark difference between them became evident.While Yuno is able to wield magic with amazing power and control, Asta cannot use magic at all and desperately tries to awaken his powers for training physically
+                    </p>
+                
+                
+
+                </div>
             </div>
 
-        </div>
-        <div class="cart-item">
-            <span class="fa fa-time"></span>
-            <img src="grimioreasta.jpeg" alt="">
-            <div class="content">
-                <h3>cart item 02</h3>
-                <div class="price">$19.99/-</div>
+        </section>
+
+
+        <!-- about section end -->
+
+        <!-- menu section start -->
+
+        <section class="menu" id="menu">
+            <h1 class="heading">CHARACTERS</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="asta sutaria.png" alt="">
+                    <h3>Asta Sutaria</h3>
+                </div>
+            
+                <div class="box">
+                    <img src="noella silva.png" alt="">
+                    <h3>Noella Silva</h3>
+                </div>     
+            
+                <div class="box">
+                    <img src="yuno kurosurii.png" alt="">
+                    <h3>Yuno Kurosurii</h3>
+                </div>   
+                
+                <div class="box">
+                    <img src="yami sakehiro.png" alt="">
+                    <h3>Yami Sakehiro</h3>
+                    
+                </div>
+                <div class="box">
+                    <img src="volta luck.png" alt="">
+                    <h3>Volta Luck</h3>
+                </div>  
+                
+                <div class="box">
+                    <img src="vanessa enocenta.png" alt="">
+                    <h3>Vanessa Enocenta</h3>
+                    
+                </div>
+        
             </div>
 
-        </div>
-        <div class="cart-item">
-            <span class="fa fa-time"></span>
-            <img src="grimioreasta.jpeg" alt="">
-            <div class="content">
-                <h3>cart item 03</h3>
-                <div class="price">$19.99/-</div>
-            </div>
-
-        </div>
-        <div class="cart-item">
-            <span class="fa fa-time"></span>
-            <img src="grimioreasta.jpeg" alt="">
-            <div class="content">
-                <h3>cart item 04</h3>
-                <div class="price">$19.99/-</div>
-            </div>
-        </div>
-        <a href="#" class="btn">check out now</a>
-        </div>
-
-  </header>
-    
-<!-- ----header section ends---- -->
-
-<!-- ----home section starts---- -->
-<section class="home" id="home">
-    <div class="content">
-        <h3>Black Clover</h3>
-        <p>Black Clover is a Japanese manga series written and illustrated by Yūki Tabata. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen ...</p>
-        <a href="#" class="btn">Watch Episode Now</a>
-    </div>
-</section>
 
 
-<!-- ----home section end---- -->
+        </section>
 
-<!-- about section start -->
+        <!-- menu section end -->
 
-<section class="about" id="about">
-    <h1 class="heading"><span>about</span>us</h1>
-    <div class="row">
-        <div class="image">
-            <img src="mini4.webp" alt="">
-        </div>
-        <div class="content">
-            <h3>What makes the anime interesting</h3>
-            <p>One of the biggest reasons why plots of some shōnen anime get watered down after some time is the dreaded fillers. For example, One Piece in recent years did an amazing job including fillers in its story and making them relevant to the main plotline, while the anime like Naruto series did not include their fillers in its canon.</p>
-            <p>Black Clover does not have that many fillers in its anime – it adapts its manga fully, and does not necessarily dedicate its time to fillers. Black Clover used their fillers for fun episodes that actually expanded on the lore of certain characters, and gave the less prominent characters moments to shine. When it comes to the main plot, Black Clover follows the usual shōnen anime formula – 
-                young characters who struggled a lot in their childhood and give their all to succeed in their ultimate goal.
-            </p>
-            <a href="#" class="">learn more</a>
+        <section class="products" id="products">
+        <h1 class="heading">TOP 3 CAPTAINS</span></h1>
+        <div class="box-container">
 
-        </div>
-    </div>
-
-</section>
-
-
-<!-- about section start -->
-
-<!-- menu section start -->
-
-<section class="menu" id="menu">
-    <h1 class="heading">our <span>menu</span></h1>
-    <div class="box-container">
         <div class="box">
-            <img src="imagesasta.jpeg" alt="">
-            <h3>Clover kingdom</h3>
-            <div class="price">Asta <br><span>see event</span></div>
-        </div>
-        <div class="box">
-            <img src="imagesasta.jpeg" alt="">
-            <h3>Clover kingdom</h3>
-            <div class="price">Wizard king <br><span>see event</span></div>
-        </div>
-        <div class="box">
-            <img src="imagesasta.jpeg" alt="">
-            <h3>Clover kingdom</h3>
-            <div class="price">Wizard king <br><span>see event</span></div>
-        </div>
-        <div class="box">
-            <img src="imagesasta.jpeg" alt="">
-            <h3>Clover kingdom</h3>
-            <div class="price">Wizard king <br><span>see event</span></div>
-        </div>
-        <div class="box">
-            <img src="imagesasta.jpeg" alt="">
-            <h3>Clover kingdom</h3>
-            <div class="price">Wizard king <br><span>see event</span></div>
-        </div>
-        <div class="box">
-            <img src="imagesasta.jpeg" alt="">
-            <h3>Clover kingdom</h3>
-            <div class="price">Wizard king <br><span>see event</span></div>
-        </div>
 
-    </div>
-
-
-
-</section>
-
-<!-- menu section end -->
-
-<section class="products" id="products">
-<h1 class="heading">our <span>products</span></h1>
-<div class="box-container">
-
-<div class="box">
-<div class="icon">
-    <a href="#" class="fas fa-shopping-cart"></a>
-    <a href="#" class="fas fa-heart"></a>
-    <a href="#" class="fas fa-eye"></a>
-</div>
-    <div class="image">
-        <img src="imagesasta.jpeg">
-    </div>
-    <div class="content">
-        <h3>Animator</h3>
-        <div class="stars">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half-alt"></i>
-    </div>
-    <div class="price">naruto <span>my anime</span></div>
-</div>
-</div>
-<div class="box">
-    <div class="icon">
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-eye"></a>
-    </div>
-        <div class="image">
-            <img src="imagesasta.jpeg">
-        </div>
-        <div class="content">
-            <h3>Animator</h3>
-            <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-        </div>
-        <div class="price">naruto <span>my anime</span></div>
-    </div>
-    </div>
-    <div class="box">
-        <div class="icon">
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-        </div>
             <div class="image">
-                <img src="imagesasta.jpeg">
+                <img src="william .jpeg">
             </div>
             <div class="content">
-                <h3>Animator</h3>
+                <h3>Golden Dawn</h3>
                 <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -234,21 +147,16 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <div class="price">naruto <span>my anime</span></div>
-        </div>
+            <div class="price">William Vangeance</div>
+    
         </div>
         <div class="box">
-            <div class="icon">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-            </div>
+            
                 <div class="image">
-                    <img src="imagesasta.jpeg">
+                    <img src="yami suki.jpeg">
                 </div>
                 <div class="content">
-                    <h3>Animator</h3>
-                   
+                    <h3>Black Bull</h3>
                     <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -256,21 +164,16 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <div class="price">naruto <span>my anime</span></div>
-            </div>
+                <div class="price">Yami Sukehiro</div>
+        
             </div>
             <div class="box">
-                <div class="icon">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
+                
                     <div class="image">
-                        <img src="imagesasta.jpeg">
+                        <img src="nozel.png">
                     </div>
                     <div class="content">
-                        
-                        <h3>Animator</h3>
+                        <h3>Silver Eagle</h3>
                         <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -278,43 +181,154 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="price">naruto <span>my anime</span></div>
+                    <div class="price">Nozel Silva</div>
                 </div>
-</div>
-</div>
-</section>
+                
+                </div>
+                
+
+        </section>
 
 
-<!-- review section starts -->
-<section class="review" id="review">
-<h1 class="heading">Viewers <span>review</span></h1>
+        <!-- review section starts -->
+        <section class="review" id="review">
+        <h1 class="heading">Voice Actors</span></h1>
 
-<div class="box-container">
-<div class="box">
-    <img src="animatorP.jpeg" alt="" class="quote">
-    <p>Studio Pierrot - Produced the anime of black clover.They also for their renowned works such as Tokyo Ghoul, Naruto, bleach and Manny More.</p>
-    <img src="animator.jpeg" class="user">
-    <h3>Bleach</h3>
+        <div class="box-container">
+        <div class="box">
+        
+            <p>Plays as Asta</p>
+            <img src="11asta.png" class="user">
+            <h3>Gakuto Kajiwara</h3>
+        
+
+        </div>
+        <div class="box">
+            
+            <p>Play as Noelle</p>
+            <img src="22noelle.png" class="user">
+            <h3>Yuuki Kana</h3>
+            
+
+        </div>
+        <div class="box">
+        
+            <p>Play as Yuno</p>
+            <img src="33yuno.png" class="user">
+            <h3>Shimazaki nobu</h3>
+        
+
+        </div>
+        <div class="box">
+            
+            <p>Play as yami</p>
+            <img src="44yami.png" class="user">
+            <h3>Junichi Suwabe</h3>
+        
+
+        </div>
+        <div class="box">
+            
+            <p>Play as Volta</p>
+            <img src="55volta.png" class="user">
+            <h3>Ayumu Murase</h3>
+        
+
+        </div>
+        <div class="box">
+            
+            <p>Play as Julius</p>
+            <img src="77julius.png" class="user">
+            <h3>Hiyuki Morikawa</h3>
+            
+
+        </div>
+        </div>
 
 
-</div>
-    
-</div>
+        </section>
+        <!-- review section end -->
+        <!-- /* contact section starts*/ -->
+        <section class="contact" id="contact">
+            <h1 class="heading">GRIMOIRES</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="grimioreasta.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>A grimoire is a book that allows its user to cast specific spells that are far in advance of their own natural magical abilities. It is one of the primary sources of power for the Magic Knights and other mages on the continent of the Clover, Diamond, Heart, and Spade Kingdoms.</h3>
+                </div>
+            </div>
+
+        </section>
+            
+        <!-- /* contact section ends*/ -->
+
+        <!-- section kingdom start -->
+
+        <section class="blogs" id="blogs">
+
+            <h1 class="heading">3 GREAT KINGDOM</h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="cloverK.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Clover Kingdom</a>
+                        <span>World of Black Clover</span> 
+                        <p> The place where Asta and Yuno born.It is the home country of the Wizard King and the Magic Knight Squads. It is currently ruled by King Augustus Kira Clover XIII.</p>
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="diamondK.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Diamond Kingdom</a>
+                        <span>World of Black Clover</span> 
+                        <p>The Diamond Kingdom lies north of the Clover Kingdom. This country of mines and wasteland is poor in resources, so it focuses its efforts on building up.</p>
+                    
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="spadeK.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Spade Kingdom</a>
+                        <span>World of Black Clover</span> 
+                        <p> The Spade Kingdom is a country near the Clover, Heart and Diamond Kingdoms. Under the rule of the Dark Triad.</p>
+                        
+                    </div>
+                </div>
+            </div>
 
 
-</section>
+        </section>
 
+        <!-- section kingdom ends -->
 
+        <!-- footer section starts -->
 
+        <section class="footer">
 
-<!-- review section end -->
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+            
 
+            <div class="credit">created by BRYAN RAGUINE</div>
 
-<!-- ----custom js file link---- -->
-<script src="script.js"></script>
+        </section>
 
+        <!-- footer section ends -->
+        </body>
+        </html>
 
-</body>
-</html>
-
-<!-- comment somewhere -->
